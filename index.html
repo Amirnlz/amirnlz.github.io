@@ -1,54 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      type="text/javascript"
-      src="https://s3.tradingview.com/tv.js"
-    ></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a
-          href="https://www.tradingview.com/symbols/EURUSD/?exchange=FX"
-          rel="noopener"
-          target="_blank"
-          ><span class="blue-text">EURUSD Rates</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-        async
-      >
-          {
-          "symbol"= "FX:EURUSD",
-          "width"= "350",
-          "height"= "220",
-          "locale"= "en",
-          "dateRange"= "12M",
-          "colorTheme"= "light",
-          "trendLineColor"= "rgba(41, 98, 255, 1)",
-          "underLineColor"= "rgba(41, 98, 255, 0.3)",
-          "underLineBottomColor"= "rgba(41, 98, 255, 0)",
-          "isTransparent"= false,
-          "autosize"= false,
-          "largeChartUrl"= ""
-        }
-      </script>
-    </div>
-    <!-- TradingView Widget END -->
-
-    <script type="text/javascript" src="./td.js"></script>
-  </body>
-</html>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">
+    <a
+      href="https://www.tradingview.com/symbols/EURUSD/?exchange=FX"
+      rel="noopener"
+      target="_blank"
+      ><span class="blue-text">EURUSD Rates</span></a
+    >
+    by TradingView
+  </div>
+  <script
+    type="text/javascript"
+    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+    async
+  >
+      {
+      "symbol"= "FX:EURUSD",
+      "width"= 350,
+      "height"= 220,
+      "locale"= "en",
+      "dateRange"= "12M",
+      "colorTheme"= "light",
+      "trendLineColor"= "rgba(41, 98, 255, 1)",
+      "underLineColor"= "rgba(41, 98, 255, 0.3)",
+      "underLineBottomColor"= "rgba(41, 98, 255, 0)",
+      "isTransparent"= false,
+      "autosize"= false,
+      "largeChartUrl"= ""
+    }
+  </script>
+</div>
+<!-- TradingView Widget END -->
